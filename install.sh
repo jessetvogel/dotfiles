@@ -14,3 +14,6 @@ brew install vim
 
 # Install `tmux`
 brew install tmux
+
+# Install `hyperfine`
+brew install hyperfine
