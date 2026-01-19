@@ -9,11 +9,15 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 # Install `bat`
 brew install bat
 
-# Install `vim`
-brew install vim
+# Install `nvim`
+brew install neovim
 
 # Install `tmux`
 brew install tmux
 
 # Install `hyperfine`
 brew install hyperfine
+
+# Copy `.config` to home directory
+cp -R .config ~
+
